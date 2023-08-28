@@ -8,7 +8,6 @@ import { HistoryComponent } from './history/history.component';
 import { SweetsComponent } from './sweets/sweets.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// Import ngx-bootstrap modules
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 
 @NgModule({

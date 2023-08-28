@@ -1,15 +1,32 @@
-<div class="container">
+<div class="container pt-5">
     <div class="row">
-        <ul class="col-2 m-0 p-0 nav nav-tabs flex-column">
+        <ul class="col-4 col-md-3 col-lg-2 m-0 p-0 nav nav-tabs flex-column">
             <li class="nav-item p-0">
                 <a class="nav-link" [ngClass]="{'active' : !isClicked}" (click)="toggle()">Ατομικά</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" [ngClass]="{'active' : isClicked}" (click)="toggle()" >Τούρτες</a>
+                <a class="nav-link" [ngClass]="{'active' : isClicked}" (click)="toggle()" >Οικογενειακά</a>
             </li>
         </ul>
-        <div class="container-fluid">
-
+        <div class="container-fluid col-8 col-md-9 col-lg-10">
+            <div class="row" *ngIf="!isClicked">
+                <div class="card col-md-6 m-0" *ngFor="let s of singleSweets">
+                    <h4 class="card-title">
+                        {{s.name}}
+                    </h4>
+                    <img src={{s.img}}>
+                    <small>{{s.price}} €</small>
+                </div>
+            </div>
+            <div class="row" *ngIf="isClicked">
+                <div class="card col-md-6 m-0" *ngFor="let s of familySweets">
+                    <h4 class="card-title">
+                        {{s.name}}
+                    </h4>
+                    <img src={{s.img}}>
+                    <small>{{s.price}} €</small>
+                </div>
+            </div>
         </div>
     </div>
 </div>    

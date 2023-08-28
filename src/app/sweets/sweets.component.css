@@ -2,6 +2,7 @@
     background-color: beige;
     padding-right: 0;
     color: white;
+    border: 1px solid rgb(53, 34, 9);;
 }
 
 .nav-link{
@@ -11,4 +12,8 @@
 .nav-link.active{
     color: beige;
     background-color: rgb(53, 34, 9);
+}
+
+.container-fluid{
+    background-color: beige;
 }
