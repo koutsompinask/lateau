@@ -1,0 +1,14 @@
+.nav{
+    background-color: beige;
+    padding-right: 0;
+    color: white;
+}
+
+.nav-link{
+    color: rgb(53, 34, 9);
+}
+
+.nav-link.active{
+    color: beige;
+    background-color: rgb(53, 34, 9);
+}
