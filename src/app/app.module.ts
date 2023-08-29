@@ -9,13 +9,15 @@ import { SweetsComponent } from './sweets/sweets.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HistoryComponent,
-    SweetsComponent
+    SweetsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -6,3 +6,10 @@ nav{
 img{
     width:100px;
 }
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-top: 40px solid rgb(53, 34, 9);
+    border-right: 100vw solid transparent;
+}

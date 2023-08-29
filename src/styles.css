@@ -21,6 +21,7 @@ h2 {
 
 html,body {
     background-color: beige;
+    overflow-x: hidden;
 }
 
 .card {
