@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HistoryComponent,
     SweetsComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
