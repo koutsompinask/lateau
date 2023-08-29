@@ -6,11 +6,14 @@
   
 .map-frame {
     border: 2px solid black;
-    width: 50%;
     height: 100%;
     margin: auto;
 }
   
 #map {
     height: 100%;
+}
+
+.row{
+    height: 250px;
 }
