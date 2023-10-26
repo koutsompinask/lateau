@@ -12,6 +12,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { MapComponent } from './map/map.component';
+import { SlotsComponent } from './slots/slots.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MapComponent } from './map/map.component';
     SweetsComponent,
     FooterComponent,
     AboutComponent,
-    MapComponent
+    MapComponent,
+    SlotsComponent
   ],
   imports: [
     BrowserModule,
